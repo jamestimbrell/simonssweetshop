@@ -1,0 +1,19 @@
+{
+  "name": "sweetshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set DEBUG=express:* & node index.js",
+    "heroku-postbuild": "cd client && yarn && yarn run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "James Timbrell",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "diskdb": "^0.1.17",
+    "express": "^4.17.1"
+  }
+}
