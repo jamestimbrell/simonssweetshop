@@ -1,4 +1,4 @@
-# simonssweetshop
+# Simons Sweet Shop Challenge
 
 Uses node and express as a server/api and React as a front end.
 
